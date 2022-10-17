@@ -1,0 +1,109 @@
+/* p {
+  width: 150px;
+  padding: 0.5em;
+  background: rgb(5, 5, 165);
+  white-space: nowrap;
+} */
+
+p {
+  width: 150px;
+  padding: 0.5em;
+  background: lavender;
+  /* white-space: nowrap;  */
+  /* overflow: hidden; */
+  /* text-overflow: ellipsis; */
+}
+
+p:nth-child(odd) {
+  background-color: purple;
+}
+
+input:invalid {
+  animation: invalidInput 0.3s;
+}
+
+@keyframes invalidInput {
+  0% {
+    transform: skew(-15);
+  }
+  25% {
+    transform: skew(15);
+  }
+  50% {
+    transform: skew(-15);
+  }
+  100% {
+    transform: skew(0);
+  }
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  /* align-items: center; */
+  height: 150vh;
+}
+
+.calculator {
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  border-radius: 30px;
+  box-shadow: inset 3px 3px 12px #ececec, 5px 5px 12px #372d2d42;
+  display: grid;
+  grid-template-columns: repeat(4, 68px);
+  height: 500px;
+}
+
+/* * {
+  box-sizing: border-box;
+  outline: 1px solid rgb(29, 107, 27);
+} */
+
+form {
+  height: 100%;
+  width: 100%;
+  display: contents;
+}
+
+input {
+  grid-column: span 4;
+  height: 100px;
+  width: 250px;
+  background-color: white;
+  box-shadow: inset -5px -5px 12px #efefef, inset 5px 5px 12px #d4d4d4;
+  border: none;
+  border-radius: 30px;
+  color: rgb(70, 70, 70);
+  font-size: 50px;
+  text-align: end;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+button {
+  height: 48px;
+  width: 48px;
+  border: none;
+  background-color: white;
+  box-shadow: 5px 5px 12px white, 3px 3px 5px #00000069;
+  border-radius: 50%;
+  font-size: 15px;
+}
+button:hover {
+  background-color: rgb(189, 189, 189);
+  cursor: pointer;
+}
+
+.equal {
+  width: 115px;
+  border-radius: 40px;
+  background-color: white;
+}
