@@ -7,7 +7,7 @@ import "./Basic.css";
 
 // console.log("Array1", Array);
 
-function Css() {
+function Calculator() {
   const [result, setresult] = useState(null);
 
   console.log("result===>", result);
@@ -112,4 +112,4 @@ function Css() {
   );
 }
 
-export default Css;
+export default Calculator;
