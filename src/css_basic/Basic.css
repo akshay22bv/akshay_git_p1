@@ -14,13 +14,13 @@ p {
   /* text-overflow: ellipsis; */
 }
 
-p:nth-child(odd) {
+/* p:nth-child(odd) {
   background-color: purple;
-}
+} */
 
-input:invalid {
+/* input:invalid {
   animation: invalidInput 0.3s;
-}
+} */
 
 @keyframes invalidInput {
   0% {
@@ -72,7 +72,7 @@ form {
   display: contents;
 }
 
-input {
+/* input {
   grid-column: span 4;
   height: 100px;
   width: 250px;
@@ -86,7 +86,7 @@ input {
   margin: auto;
   margin-bottom: 20px;
   padding: 10px;
-}
+} */
 
 button {
   height: 48px;
