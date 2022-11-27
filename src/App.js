@@ -3,6 +3,7 @@ import "./App.css";
 import Child from "./callback/Child";
 import Parent from "./callback/Parent";
 import Calculator from "./css_basic/Calculator";
+import Hover from "./css_basic/hover/Hover";
 import ReactRouter from "./css_basic/ReactRouter";
 import ReactRouterSandbox from "./css_basic/ReactRouterSandbox";
 import ReactToPdf from "./css_basic/ReactToPdf";
@@ -30,7 +31,8 @@ function App() {
       {/* <Calculator /> */}
       {/* <FormikForm /> */}
       {/* <UseCallbackExample /> */}
-      <UseMemoEx1 />
+      {/* <UseMemoEx1 /> */}
+      <Hover />
     </div>
   );
 }
